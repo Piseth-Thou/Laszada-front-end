@@ -1,0 +1,31 @@
+.laz_mall {
+    height: 200px;
+    background-color:white
+}
+.laz_mall:hover{
+    box-shadow: 1px 1px 1px 1px rgb(210, 205, 214);
+}
+.laz_mall .cover {
+    height: 140px;
+    background-color: rgb(204, 197, 197);
+    position: absolute;
+}
+.laz_mall .cover img {
+    height: 100%;
+    width: 100%;
+}
+.laz_mall .cover .profile {
+    margin:-34px 0 0 67px;
+    position:relative;
+}
+.laz_mall .cover .profile img {
+    border:1px solid black;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(211, 195, 195);
+}
+.laz_mall .text {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 10px;
+}

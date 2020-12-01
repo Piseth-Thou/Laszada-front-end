@@ -1,0 +1,21 @@
+.cards {
+    height: 147px;
+    background-color: white;
+    padding: 10px;
+}
+.cards:hover{
+    box-shadow: 1px 1px 1px 1px rgb(210, 205, 214);
+}
+.cards .imag {
+    height: 100px;
+    overflow: hidden;
+}
+.cards .imag img{
+    width: 100%;
+    height: 100%;
+}
+.cards .text {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 12px;
+}

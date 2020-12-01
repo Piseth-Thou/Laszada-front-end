@@ -1,0 +1,91 @@
+
+/*----------------------- Top Header --------------------- */
+.top-header {
+    background-color: rgba(59, 26, 26, 0.05);
+    overflow: hidden;
+    padding: 2px 0;
+}
+.top-header ul{
+    margin-bottom: 0;
+    float: right;
+    display: flex;
+}
+.top-header ul li {
+    margin-left: 30px;
+    font-size: 10px;
+    cursor: pointer;
+    color: #9e9e9e;
+    list-style: none;
+}
+.top-header ul li:hover{
+    color: rgb(230, 111, 43);
+}
+/* -----------------------Main Header --------------------- */
+.main-header {
+    background-color: white;
+    padding: 11px 0;
+    cursor: pointer;
+}
+.ant-btn-icon-only{
+    background-color:#f57224 !important;
+}
+.ant-input-search-button{
+    font-size: 12px;
+    color: white !important;
+}
+.ant-input{
+    background-color: rgb(216, 210, 224,0.4);
+}
+@media only screen and (max-width: 812px) {
+    .top-header ,.main-header {
+        display: none;
+    }
+}
+
+/* ----------------------Footer Style-------------------- */
+.footer {
+    background-color:rgb(129, 127, 127,0.09) ;
+}  
+.footer .top_footer {
+    padding: 10px 0;
+    font-size: 12px;
+    color: #0f136d;
+}
+.footer .top_footer li {
+    list-style: none;
+}
+.footer .top_footer li a{
+    color: #0f136d;
+    font-size: 10px;
+}
+.footer .top_footer .logo img {
+    border-radius: 25%;
+} 
+.footer .top_footer .text{
+    margin-left: 10px;
+}
+.footer  .bottom_footer {
+    background-color: white;
+    padding: 20px 0;
+    font-size: 13px;
+}
+.footer .bottom_footer .images {
+    margin-right: 10px;
+}
+.anticon  {
+font-size: 20px;
+margin-right: 10px;
+cursor: pointer;
+}
+.footer .bottom_footer .flag {
+    float: left;
+}
+.footer .bottom_footer .flag img {
+    height: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border:1px solid#F69DB7;
+    border-radius: 50%;
+    padding: 2px;
+}

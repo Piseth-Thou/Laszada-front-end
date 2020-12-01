@@ -1,0 +1,21 @@
+.wrap .item {
+    height: 160px;
+    line-height: 160px;
+    text-align: center;
+    color: #fff;
+    height: 300px;
+}
+.wrap .item img{
+    width: 100%;
+    height: 300px;
+}
+@media only screen and (max-width: 812px){
+    .wrap .item img{
+        width: 100%;
+        height: 119px;
+    }
+    .wrap .item {
+        height: 119px;
+        background-color: none;
+    }
+}

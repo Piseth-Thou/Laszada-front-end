@@ -1,0 +1,15 @@
+.owl-item{
+width: 137px !important;
+height: 80px !important;
+border:solid 1px rgb(210, 216, 223);
+padding: 15px 0;
+}
+.items {
+width: 100px;
+height: 50px;
+margin: auto;
+overflow: hidden;
+}
+.items img {
+height: 100%;
+}
